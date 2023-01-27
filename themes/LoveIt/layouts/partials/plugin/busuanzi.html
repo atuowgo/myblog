@@ -10,7 +10,7 @@
             <section>
                 {{ if eq .params.site_pv true }}
                     <span id="busuanzi_container_value_site_pv">
-                        {{- with .params.page_pv_pre -}}
+                        {{- with .params.site_pv_pre -}}
                             {{ . | safeHTML }}
                         {{ end }}
                         <span id="busuanzi_value_site_pv"></span>
