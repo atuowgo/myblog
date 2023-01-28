@@ -19,7 +19,7 @@ git commit -m "$msg"
 
 # push source to github
 
-git push master
+git push origin master
 
 # come back to blog root
 
